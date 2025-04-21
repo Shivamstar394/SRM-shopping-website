@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SRM Shopping Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">SRM Shop</div>
+<ul class="nav-links">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Products</a></li>
+  <li><a href="#">Contact</a></li>
+  <li>
+    <a href="#" class="cart-icon">
+      🛒 <span id="cart-count">0</span>
+    </a>
+  </li>
+</ul>
+
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1 id="site-name"></h1>
+    <p class="tagline">Your one-stop destination for everything!</p>
+  </div>
+
+  <!-- Products Section -->
+  <section class="products-section">
+    <h2>Featured Products</h2>
+    <div class="products-grid">
+      <div class="product-card">
+        <img src="C:/Users/STUDENT/Desktop/website dynamic/images/OIP.jpeg" alt="Stylish Sneakers">
+        <h3>Stylish Sneakers</h3>
+        <p>$49.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="C:/Users/STUDENT/Desktop/website dynamic/images/61ZjlBOp+rL.jpg" alt="Stylish Sneakers">
+        alt="Smart Watch">
+        <h3>Smart Watch</h3>
+        <p>$89.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="C:/Users/STUDENT/Desktop/website dynamic/images/71gtHnQGfQL._AC_SL1500_.jpg" alt="Wireless Earbuds">
+        <h3>Wireless Earbuds</h3>
+        <p>$29.99</p>
+        <button>Add to Cart</button>
+        <button class="add-to-cart-btn"
+          data-id="1"
+          data-name="Stylish Sneakers"
+          data-price="49.99"
+          data-img="images/product1.jpg">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
